@@ -99,7 +99,7 @@ export default {
     },
     getCategory: function () {
       this.$axios
-        .$get("http://127.0.0.1:5000/api/data/category", {
+        .$get("http://128.199.174.15:5000/api/data/category", {
           // params: {
           //   id: id,
           // },
@@ -128,7 +128,7 @@ export default {
 
     getBuildingData: function (id) {
       this.$axios
-        .$get("http://127.0.0.1:5000/api/data/building", {
+        .$get("http://128.199.174.15:5000/api/data/building", {
           params: {
             id: id,
           },

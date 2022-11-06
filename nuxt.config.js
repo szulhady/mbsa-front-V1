@@ -116,7 +116,7 @@ export default {
           },
           logout: false,
           user: {
-            // url: "http://127.0.0.1:5000/api/auth/me",
+            // url: "http://128.199.174.15:5000/api/auth/me",
             url: "http://128.199.174.15:5000/api/auth/me",
             // url: "http://104.248.158.194/api/auth/me",
             method: 'GET',
